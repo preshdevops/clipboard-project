@@ -310,3 +310,23 @@ footer > p {
     font-size: 0.9rem;
     color: #666;
 }
+@media (max-width: 480px) {
+    footer .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer nav {
+        grid-template-columns: 1fr; /* Stacks links vertically */
+    }
+
+    footer .social {
+        margin-top: 20px;
+    }
+    .buttons {
+        flex-direction: column; /* Stacks buttons vertically */
+        gap: 10px; /* Adds space between buttons */
+        align-items: center;
+        
+    }
+}
