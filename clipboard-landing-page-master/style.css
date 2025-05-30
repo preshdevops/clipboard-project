@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: none;
+}
+/* .container{
+    flex-direction: column;
+    width: 100%;
+}
+.container .header-image{
+     height: auto;
+    width: 100%;
+    margin: 0;
+    display: block;
+    object-fit: cover;
+} */
+ .container {
+  background: image('./images/bg-header-desktop.png');
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  /*justify-content: center; */
+  max-width: 1440px;
+}
+.container .header-image{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-top: -2%;
+}
+.container .logo{
+    display: block;
+    width: 5%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 0;
+    margin-top: -20%;
+}
+.container .header{
+    text-align: center;
+    
+}
+.container .header h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: hsl(210, 10%, 33%);
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.container .header p{
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.container .buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    gap: 1rem;
+    border: none;
+    border-radius: 50000px;
+    margin-bottom: 10%;
+} 
+.container .buttons .ios{
+    background-color: hsl(171, 66%, 44%);
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container .buttons .mac{
+    background-color: hsl(233, 100%, 69%);
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container .track{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.container .track h2{
+    font-weight: 600;
+    margin-bottom: 2.5%;
+}
+.container .track p{
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
+.container .macos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+    margin-bottom: 60px;
+    /* background-color: yellowgreen; */
+}
+.container .macos .macc{
+    display: block;
+    margin-left: -25%;
+    flex: 1;
+
+}
+/* .container .macos .search{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    margin: 0;
+} */
+.container .macos .text{
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-height: 50%; /* Makes the text block smaller than the image height */
+    position: relative;
+    top: 100px;
+    height: fit-content;
+    left: 20px;
+}
+/* .container .macos .search h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+} */
+ .container .macos .search {
+    text-align: centre;
+    padding: 10px;
+}
+.container .macos .search h3{
+    font-size: 1.8rem;
+    margin-bottom: 5 auto;
+}
+.container .macos .search p{
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    /* margin-top: 0; */
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.access .text-content{
+    justify-content: center;
+    text-align: center;
+}
+.access .text-content h3{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+}
+.access .text-content p{
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 70px;
+}
+.access .image{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.access .image img{
+    filter: drop-shadow(0px 0px 10px 
+    rgba(0, 0, 0, 0.5));
+}
+.access .charge{
+    justify-content: center;
+    text-align: center;
+}
+.charge h3{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+}
+.charge p{
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 70px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.features{
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.feature-image{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    flex: 1;
+    /* gap: 5rem; */
+    justify-content: center;
+    align-items: center;
+}
+.feature-image img{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.feature-text{
+    margin: 1rem auto;
+    text-align: center;
+}
+.feature-text h3{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.feature-text p{
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+}
+.firms{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 6.5rem;
+}
+/* footer .container{
+    background-color: hsl(201, 11%, 66%);
+    height: fit-content;
+}
+footer img{
+    width: 5%;
+    height: auto;
+    display: block;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+} */
+ footer .wrapper {
+    display: flex;
+    justify-content: space-between; /* Keeps logo on left, social icons on right */
+    align-items: flex-start; /* Aligns items at the top */
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%; /* Matches your container width */
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: hsl(201, 11%, 66%);
+}
+
+footer .wrapper img {
+    width: 50px; /* Adjust logo size if needed */
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); /* Creates columns, adjusts based on space */
+    gap: 15px; /* Space between links */
+    flex: 1; /* Allows nav to take available space */
+    max-width: 600px; /* Limits nav width to keep links centered */
+    margin: 0 auto; /* Centers the nav within its flex space */
+    text-align: center; /* Centers text within each grid item */
+
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+}
+
+footer .social {
+    display: flex;
+    gap: 15px; /* Slightly larger gap for social icons */
+    align-items: center;
+}
+
+footer .social img {
+    width: 24px;
+    height: 24px;
+}
+
+footer > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
